@@ -20,7 +20,12 @@ while(chute != numeroSecreto){
         alert('Você errou o numero é maior');
         tentativas++;
     }
+    console.log(tentativas)
     if (chute == numeroSecreto){
-        alert(`você acertou em ${tentativas} tentativas! Parabéns`)
+        if(tentativas<=1){
+            alert(`você acertou em ${tentativas} tentativa! Parabéns`);
+        } else {
+            alert(`você acertou em ${tentativas} tentativas! Parabéns`)
+      }
     }
 }
