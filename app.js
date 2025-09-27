@@ -13,12 +13,12 @@ while(chute != numeroSecreto){
     //Se o chute for maior que número secreto
     if(chute > numeroSecreto) {
         alert('Você errou o numero é menor');
-        tentativas++
+        tentativas++;
     }
     //Se o chute for menor que número secreto
     if(chute < numeroSecreto) {
         alert('Você errou o numero é maior');
-        tentativas++
+        tentativas++;
     }
     if (chute == numeroSecreto){
         alert(`você acertou em ${tentativas} tentativas! Parabéns`)
